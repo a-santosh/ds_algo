@@ -1,0 +1,45 @@
+Recursion
+
+When to use?
+    Does it fit into one of 6 known recursive patterns?
+    Does the problem break into sub-problems?
+    Could the problem be solved with an arbitrary number of nested for loops?
+    Can you reframe the problem as a search problem?
+    Is it easier to solve recursively than iteratively?
+
+Recursion & return types
+    Global variable  -- ** try to avoid if possible
+    Passed variable  -- Pass by reference type example
+*** return variable -- return partial values while we build the end result ***
+
+    Backtracking
+    Tail recursion
+
+6 Categories of recursion problems
+    1. Iteration
+    2. Subproblems
+    3. Selection
+    4. Ordering
+    5. Divide & Conquer
+    6. Depth First search
+
+1. Iteration:
+  Can be solved with iteration, but may be easier to code with recursion.
+    example: print reverse linkedlist
+          Note: see how tail recursion or recursion call in middle could help.
+
+2. Sub problems
+  Break problem into Subproblems.
+      Example: Fibonacci - figure out Subproblem.
+  All problems come under this category, but other patterns are specific & easy to apply.
+
+3. Selection
+  Finding all combinations of our input to match a criteria.
+
+4. Ordering
+  Permutations of all combinations
+
+5. Break the problem into parts and solve.
+  Example: Mergesort
+
+6. Depth First Search
