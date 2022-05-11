@@ -1,0 +1,27 @@
+Disjoint set or "Union-find" data structure
+-- Primary use - to detect connectivity between nodes
+-- Root node - No parent or parent to itself.
+
+Implementation
+  Array --> Index & value
+    Index - Node#
+    Value - Parent Node#
+
+Is Connected ?
+  - If two nodes have same root node -> connected otherwise not.
+
+Two important functions of Disjoint set
+  1. find
+      -- gives the Root Node for given node
+  2. Union
+      -- merges two nodes(vertices) to make their root nodes same
+
+Two ways to implement Disjoint set
+  1. Quick Find --> Time complexity for find O(1), Union O(n)
+  2. Quick Union --> Time complexity for find O(n), Union O(1)
+
+Union by Rank
+  -- Addresses the inefficiencies from both above QuickFind & QuickUnion.
+
+Path optimization
+  -- rootnode is updated for all nodes.  
