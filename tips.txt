@@ -1,0 +1,20 @@
+C++ string tokenizer -- instead of tokenizer we can use substr function and get strings.
+
+
+vector<string> getPathString( string str ){
+
+        int sz = str.length();
+        vector<string>v;
+
+        while( sz > 0 ){
+            string s = str.substr( 0, str.find('/') );
+            //cout << "String s is: " << s << endl;
+            int len = s.length();
+            v.push_back( s );
+            str = str.substr( str.find('/')+1, sz-len);
+            //cout << "string str is: " << str << endl;
+            sz = str.length();
+        }
+
+        return v;
+    }

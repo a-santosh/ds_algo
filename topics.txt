@@ -1,0 +1,35 @@
+Rolling hash
+Segment Tree
+Binary Indexed Tree
+Divide and Conquer
+Ordered Map
+Heap
+Dynamic Programming
+Topological Sort
+Sliding Window
+Union Find
+Trie
+Binary Search
+Back tracking
+BFS
+Graph
+Stack
+Queue
+Greedy
+DFS
+Math
+Sort
+Recursion
+Design
+Total
+String
+Random
+Geometry
+Hash table
+Mini max
+Two pointers
+Bit manipulation
+Array
+Tree
+Linkedlist
+Binary Search
